@@ -1,19 +1,29 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
- * print_alphabet - prints the alphabet, in lowercase, followed by a new line
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
-void print_alphabet(void)
+int main(void)
 {
-	char ch;
+  int n, m;
 
-	ch = 'a';
-
-	while (ch <= 'z')
-	{
-		_putchar(ch);
-		ch++;
-	}
-
-	_putchar('\n');
+  for (n = 48; n <= 56; n++)
+  {
+    for (m = 49; m <= 57; m++)
+    {
+      if (m > n)
+      {
+        putchar(n);
+        putchar(m);
+        if (n != 56 || m != 57)
+        {
+          putchar(',');
+          putchar(' ');
+        }
+      }
+    }
+  }
+  putchar('\n');
+  return (0);
 }
