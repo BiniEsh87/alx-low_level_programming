@@ -1,27 +1,19 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - starting point of the program
- *
- * Description: prints numbers with coma
- * Return: 0 if program executes properly, else a non-zero number
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-int main(void)
+void print_alphabet(void)
 {
-	int i;
+	char ch;
 
-	for (i = '0'; i <= '9'; i++)
-	{
-	putchar(i);
-	if (i != '9')
-	{
-		putchar(',');
-		putchar(' ');
-	}
-	}
-	putchar('\n');
+	ch = 'a';
 
-	return (0);
-	return (0);
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+
+	_putchar('\n');
 }
