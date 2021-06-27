@@ -3,12 +3,13 @@
 
 /**
  * _isupper - check for uppercase letters.
- * @return 1: means uppercase
- * @retun 0 : means lowercase
+ * @c: character
  * Return: Always 0.
  */
-int _isupper (int c)
+int _isupper(int c)
 {
+	char c;
+
 	if (c >= 'A' && c <= 'Z')
 	return (1);
 	else
