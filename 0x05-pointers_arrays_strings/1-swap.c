@@ -1,9 +1,11 @@
 #include "holberton.h"
 
 /**
- *reset_to_98 - it reset numbers to 98
- *@n: an integer value,
- *Return: returns nothing in void cases
+ *swap_int - it swaps nums
+ *@temp: an integer value
+ *@a: pointer a
+ *@b: pointer b
+ *Return: returns void
  */
 
 void swap_int(int *a, int *b)
