@@ -2,7 +2,7 @@
 
 /**
  *swap_int - it swaps nums
- *@temp: an integer value
+ *
  *@a: pointer a
  *@b: pointer b
  *Return: returns void
