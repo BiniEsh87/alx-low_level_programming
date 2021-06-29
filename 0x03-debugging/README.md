@@ -1,4 +1,4 @@
-# Hello, World
+# Debugging
 
 Project done during **ALX Software Engineering programme** at **ALX + HOLBERTON**. It aims to teach/learn how to debug in **C language**.
 
