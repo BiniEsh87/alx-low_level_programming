@@ -1,4 +1,4 @@
-# Hello, World
+# Variables, if, else and while
 
 Project done during **ALX Software Engineering programme** at **ALX + HOLBERTON**. It aims to teach/learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in **C language**.
 
