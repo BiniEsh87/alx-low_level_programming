@@ -1,4 +1,4 @@
-# Hello, World
+# Functions, nested loops
 
 Project done during **ALX Software Engineering programme** at **ALX + HOLBERTON**. It aims to teach/learn about header files, functions, loops and nested loops in **C language**.
 
