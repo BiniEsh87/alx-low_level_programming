@@ -1,4 +1,4 @@
-# Hello, World
+# More functions, more nested loops
 
 Project done during **ALX Software Engineering programme** at **ALX + HOLBERTON**. It aims to teach/learn about nested loops in **C language**.
 
