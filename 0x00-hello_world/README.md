@@ -1,6 +1,6 @@
 # Hello, World
 
-Project done during **ALX Software Engineering programme** at **ALX + HOLBERTON**. It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **C language**.
+Project done during **ALX Software Engineering programme** at **ALX + HOLBERTON**. It helps to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **C language**.
 
 ## Technologies
 * Scripts written in Bash 5.0.17
