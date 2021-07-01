@@ -1,22 +1,27 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
-* _strncat- concatenates source with destination to a length n
-* @dest-a destination string
-* @src-a source string
-* @n-integer
-* @Return -destination of concatenated string
-*/
-
+ * _strncat - concatenates two strings,
+ * @dest: destination.
+ * @src: source.
+ * @n: amount of bytes used from src.
+ * Return: the pointer to dest.
+ */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j, n;
+	int i = 0, j = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
-	{};
-	for (j = 0; src[j] != '\0' ; &&j < n; j++)
+	while (*(dest + i) != '\0')
 	{
-	dest[i + j] = src[j];
+		i++;
 	}
 
+	while (j < n)
+	{
+		*(dest + i) = *(src + j);
+		if (*(src + j) == '\0')
+			break;
+		i++;
+		j++;
+	}
 	return (dest);
 }
