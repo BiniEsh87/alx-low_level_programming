@@ -36,3 +36,4 @@ int main(int argc, char *argv[])
 	printf("%d\n", ncoins);
 	return (0);
 
+}
