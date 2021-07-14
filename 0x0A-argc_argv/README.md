@@ -1,6 +1,5 @@
-# Recursion
-
-Project done during at during **ALX Software Engineering programme** at It aims on how to use arguments passed to a program in **C language**.
+# Argc, argv
+Project done during at during **ALX Software Engineering programme**.It aims on how to use arguments passed to a program in **C language**.
 
 
 ## Technologies
