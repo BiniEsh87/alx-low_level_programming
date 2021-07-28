@@ -1,1 +1,17 @@
-0x10. C - Variadic functions
+# Variadic functions
+Project done during **ALX Software Engineering programme** at. Its a project on variadic functions in **C language**.
+
+## Technologies
+* C files are written according to the C90 standard
+* Tested on Ubuntu 20.04 LTS
+
+## Files
+All of the following files are programs written in C:
+
+| File name | Description |
+| ------------ | ----------- |
+| 0-sum_them_all.c | Returns the sum of all its parameters |
+| 1-print_numbers.c | Prints numbers |
+| 2-print_strings.c | Prints strings |
+| 3-print_all.c | Prints anything |
+| 100-hello_holberton.asm | Assembly that prints Hello, Hello |
